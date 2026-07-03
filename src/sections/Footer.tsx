@@ -2,9 +2,9 @@ import { ArrowUp, Github, Linkedin, Mail } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const SOCIALS = [
-  { icon: Mail, href: 'mailto:anne.njamen@example.com', label: 'Email' },
-  { icon: Linkedin, href: 'https://www.linkedin.com/', label: 'LinkedIn' },
-  { icon: Github, href: 'https://github.com/nannedorcas', label: 'GitHub' },
+  { icon: Mail, href: 'mailto:njah1anne@gmail.com', label: 'Email' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/anne-dorcas-nguewouo-njamen-68a80a231/', label: 'LinkedIn' },
+  { icon: Github, href: 'https://github.com/Nannedorcas', label: 'GitHub' },
 ];
 
 export default function Footer() {

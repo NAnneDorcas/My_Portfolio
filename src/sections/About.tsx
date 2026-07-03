@@ -21,7 +21,7 @@ export default function About() {
               Engineering with <span className="text-gradient-primary">intention</span>
             </>
           }
-          description="I'm a software engineer who loves crafting thoughtful digital products. I care about the details that make software feel effortless — the architecture, the interface, and everything in between."
+          description="I'm a Software Development and Entrepreneurship student at EEK Mainor in Tallinn, Estonia, passionate about building intuitive web applications and solving real-world problems through technology."
         />
 
         <div className="mt-14 grid gap-6 lg:grid-cols-[1fr_1.1fr]">
@@ -34,18 +34,20 @@ export default function About() {
             className="space-y-6"
           >
             <div className="rounded-3xl glass p-7">
-              <p className="text-base leading-relaxed text-slate-300">
-                Based in France and trained at{' '}
-                <span className="font-semibold text-white">EEK Mainor</span>, I
-                specialize in building full-stack web applications with a strong
-                focus on frontend craft. My internship at{' '}
-                <span className="font-semibold text-white">Ericsson</span> gave
-                me a taste of large-scale, production-grade engineering.
-              </p>
+            <p className="text-base leading-relaxed text-slate-300">
+              I'm a Software Development and Entrepreneurship student at
+              <span className="font-semibold text-white"> EEK Mainor</span> in Tallinn,
+              Estonia. I enjoy creating modern web applications that combine clean design
+              with practical functionality. During my internship at
+              <span className="font-semibold text-white"> Ericsson</span>, I gained
+              experience working in a professional software development environment and
+              strengthened my technical and collaborative skills.
+            </p>
               <p className="mt-4 text-base leading-relaxed text-slate-400">
-                When I'm not shipping features, I'm exploring design systems,
-                performance optimization, and the intersection of engineering and
-                entrepreneurship.
+                I enjoy learning new technologies, building full-stack applications, and
+                turning ideas into real products. Whether it's developing an e-commerce
+                platform, a booking system, or experimenting with new frameworks, I'm always
+                excited to take on new challenges and continue growing as a software developer.
               </p>
             </div>
 

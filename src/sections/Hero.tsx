@@ -3,6 +3,7 @@ import { ArrowRight, Download, Sparkles } from 'lucide-react';
 import Typewriter from '../components/Typewriter';
 import MagneticButton from '../components/MagneticButton';
 import { HERO_ROLES, RESUME_URL } from '../data';
+import profileImage from '../assets/anne.jpeg';
 
 export default function Hero() {
   const scrollTo = (id: string) =>
@@ -23,7 +24,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs font-medium text-slate-300"
           >
             <Sparkles size={14} className="text-primary-300" />
-            Available for new opportunities
+            Open to Graduate & Junior Software Developer Opportunities
           </motion.div>
 
           <motion.p
@@ -61,8 +62,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.32 }}
             className="mt-6 max-w-xl text-base leading-relaxed text-slate-400 sm:text-lg"
           >
-            I design and build elegant, performant web experiences — turning
-            complex problems into clean, human-centered software.
+           I'm a software developer passionate about building modern, user-focused web applications. 
+           I enjoy transforming ideas into practical digital solutions through clean code, intuitive 
+           interfaces, and continuous learning.
           </motion.p>
 
           <motion.div
@@ -83,15 +85,7 @@ export default function Hero() {
               />
             </MagneticButton>
 
-            <MagneticButton
-              as="a"
-              href={RESUME_URL}
-              download
-              className="inline-flex items-center gap-2 rounded-full glass px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10"
-            >
-              <Download size={16} />
-              Download CV
-            </MagneticButton>
+            
           </motion.div>
         </div>
 
@@ -122,11 +116,11 @@ export default function Hero() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-transparent" />
             <img
-              src="https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=900"
-              alt="Anne Dorcas Njamen"
-              loading="eager"
-              className="h-full w-full object-cover opacity-90 mix-blend-luminosity"
-            />
+        src={profileImage}
+  alt="Anne Dorcas Njamen"
+  loading="eager"
+  className="h-full w-full object-cover"
+/>
             <div className="absolute inset-0 bg-gradient-to-t from-ink-900/70 via-transparent to-transparent" />
 
             {/* floating chips */}
@@ -135,14 +129,14 @@ export default function Hero() {
               transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
               className="absolute left-4 top-6 rounded-xl glass px-3 py-2 text-xs font-medium text-white shadow-soft"
             >
-              React · TypeScript
+              React · Angular
             </motion.div>
             <motion.div
               animate={{ y: [0, 10, 0] }}
               transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
               className="absolute bottom-6 right-4 rounded-xl glass px-3 py-2 text-xs font-medium text-white shadow-soft"
             >
-              Full Stack
+              Software Developer
             </motion.div>
           </motion.div>
         </motion.div>

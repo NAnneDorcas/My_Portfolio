@@ -35,13 +35,14 @@ export default function Projects() {
           >
             <div className="absolute inset-0 bg-grid-faint opacity-30" style={{ backgroundSize: '40px 40px' }} />
             <motion.div
-              className="absolute inset-0 grid place-items-center"
-              whileHover={{ scale: 1.04 }}
-              transition={{ type: 'spring', stiffness: 200, damping: 20 }}
-            >
-              <span className="font-display text-5xl font-bold text-white/90 sm:text-6xl">
-                {featured.name}
-              </span>
+              className="relative aspect-[4/3] overflow-hidden rounded-3xl">
+              <img
+                src={featured.image}
+                alt={featured.name}
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            
+    
             </motion.div>
             <div className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full glass px-3 py-1 text-xs font-medium text-white">
               <Star size={12} className="fill-amber-300 text-amber-300" />
